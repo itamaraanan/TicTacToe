@@ -1,6 +1,7 @@
-Tic Tac Toe Android App
-Overview
-This is a simple Tic Tac Toe game for Android, implemented in Java. The game features a single-player mode against a basic AI opponent and keeps track of wins and losses.
+#Tic Tac Toe Android App
+
+##Overview
+###This is a simple Tic Tac Toe game for Android, implemented in Java. The game features a single-player mode against a basic AI opponent and keeps track of wins and losses.
 
 Features
 Single-player mode
