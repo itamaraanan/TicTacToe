@@ -22,24 +22,31 @@ This is a simple Tic Tac Toe game for Android, implemented in Java. The game fea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tictactoe.git
+   git clone [https://github.com/yourusername/tictactoe.git](https://github.com/itamaraanan/TicTacToe.git)
+   
 # Tic Tac Toe Android App
 
 ## Getting Started
 
 1. **Open the Project**: Open the project in Android Studio.
-2. **Build and Run**: Build the project and run it on an Android device or emulator.
+2. 
+3. **Build and Run**: Build the project and run it on an Android device or emulator.
 
 ## How to Play
 
 1. **Launch the App**: Open the app on your device or emulator.
+
 2. **Start the Game**: Press the "Start game" button on the main menu.
+
 3. **Gameplay Instructions**:
+
    - You play as "X" against the AI, which plays as "O".
    - Tap on an empty cell to make your move.
    - The game alternates turns between you and the AI.
    - After each move, the game checks for win, loss, or draw conditions.
+
 4. **Game Results**:
+
    - View the game results after the game concludes.
    - Choose to return to the main menu or start a new game.
 
