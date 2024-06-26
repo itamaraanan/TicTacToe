@@ -43,16 +43,9 @@ This is a simple Tic Tac Toe game for Android, implemented in Java. The game fea
    - Tap on an empty cell to make your move.
    - The game alternates turns between you and the AI.
    - After each move, the game checks for win, loss, or draw conditions.
+   - The first to get 3 marks in a row wins the game
 
 4. **Game Results**:
 
    - View the game results after the game concludes.
    - Choose to return to the main menu or start a new game.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions or feedback, contact me at [your email address].
