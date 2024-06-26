@@ -29,8 +29,8 @@ This is a simple Tic Tac Toe game for Android, implemented in Java. The game fea
 ## Getting Started
 
 1. **Open the Project**: Open the project in Android Studio.
-2. 
-3. **Build and Run**: Build the project and run it on an Android device or emulator.
+   
+2. **Build and Run**: Build the project and run it on an Android device or emulator.
 
 ## How to Play
 
