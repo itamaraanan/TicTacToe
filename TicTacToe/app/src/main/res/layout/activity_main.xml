@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Making the layout linear -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#73899F"
+    tools:context=".MainActivity">
+
+    <!--Displaying a title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to tic tac toe!"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp">
+
+    </TextView>
+    <!-- Building a button that starts the game -->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start game"
+        android:textSize="25dp">
+    </Button>
+
+
+
+        <!-- Adding tv that counts the players wins -->
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:id="@+id/tvWins"
+        ></TextView>
+
+        <!-- Adding tv that counts the opponents wins -->
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:id="@+id/tvloses"
+        >
+    </TextView>
+
+</LinearLayout>

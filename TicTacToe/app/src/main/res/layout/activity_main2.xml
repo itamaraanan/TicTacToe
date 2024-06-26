@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#73899F"
+    tools:context="MainActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#73899F">
+
+        <!--Displaying "turn:" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="turn:  "
+            android:textSize="30dp"
+            android:id="@+id/tvTurn"></TextView>
+
+        <!-- Displaying X or O image -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgXO"
+            android:src="@drawable/efdsf">
+        </ImageView>
+
+    </LinearLayout>
+
+    <!-- LinearLayout for the first row of ImageButtons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- ImageButton 0 -->
+        <ImageButton
+            android:id="@+id/imgbtn0"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <!-- ImageButton 1 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn1">
+        </ImageButton>
+
+        <!-- ImageButton 2 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn2">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <!-- LinearLayout for the second row of ImageButtons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- ImageButton 3 -->
+        <ImageButton
+            android:id="@+id/imgbtn3"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <!-- ImageButton 4 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn4">
+        </ImageButton>
+
+        <!-- ImageButton 5 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn5">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <!-- LinearLayout for the third row of ImageButtons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- ImageButton 6 -->
+        <ImageButton
+            android:id="@+id/imgbtn6"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <!-- ImageButton 7 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn7">
+        </ImageButton>
+
+        <!-- ImageButton 8 -->
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgbtn8">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <!-- Building button for returning -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:text="return"
+        android:id="@+id/btnReturn">
+    </Button>
+
+    <!-- Displaying game progress -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game is in progress"
+        android:textSize="20dp"
+        android:id="@+id/tvProgress">
+    </TextView>
+
+</LinearLayout>
