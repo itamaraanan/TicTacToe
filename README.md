@@ -24,7 +24,6 @@ This is a simple Tic Tac Toe game for Android, implemented in Java. The game fea
    ```bash
    git clone [https://github.com/yourusername/tictactoe.git](https://github.com/itamaraanan/TicTacToe.git)
    
-# Tic Tac Toe Android App
 
 ## Getting Started
 
