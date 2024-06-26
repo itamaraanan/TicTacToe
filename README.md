@@ -22,7 +22,7 @@ This is a simple Tic Tac Toe game for Android, implemented in Java. The game fea
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/tictactoe.git](https://github.com/itamaraanan/TicTacToe.git)
+   git clone https://github.com/itamaraanan/TicTacToe.git
    
 
 ## Getting Started
